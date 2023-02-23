@@ -1,0 +1,37 @@
+keybinds:
+- name: Focus left
+  keys:
+  - modifier: [ 'mod' ]
+    key: h
+  - modifier: [ 'mod' ]
+    key: left 
+  action:
+    herbstluftwm: focus left
+
+- name: Focus right
+  keys:
+  - modifier: [ 'mod' ]
+    key: l
+  - modifier: [ 'mod' ]
+    key: right
+  action:
+    herbstluftwm: focus right
+
+- name: Focus up
+  keys:
+  - modifier: [ 'mod' ]
+    key: k
+  - modifier: [ 'mod' ]
+    key: up
+  action:
+    herbstluftwm: focus up
+    xmonad: windows W.focusUp
+      
+- name: Focus down
+  keys:
+  - modifier: [ mod ]
+    key: j
+  - modifier: [ mod ]
+    key: down
+  action:
+    herbstluftwm: focus down
